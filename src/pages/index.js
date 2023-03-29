@@ -67,9 +67,19 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <h2 className={inter.className}>
-              Docs <span>-&gt;</span>
-            </h2>
+            <Image src="/images/image1.jpg" alt="NTFs" width={300} height={300} />
+            <p className={inter.className}>
+              Find in-depth information about Next.js features and&nbsp;API.
+            </p>
+          </a>
+
+          <a
+            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            className={styles.card}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image src="/images/image2.jpg" alt="NTFs" width={300} height={300} />
             <p className={inter.className}>
               Find in-depth information about Next.js features and&nbsp;API.
             </p>
